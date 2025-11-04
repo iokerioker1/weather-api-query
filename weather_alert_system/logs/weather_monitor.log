@@ -1,0 +1,20 @@
+2025-11-04 19:03:21,218 - weather_monitor.core - INFO - 开始天气监控，城市: 北京, 上海, 广州, 深圳, 杭州, 成都, 武汉, 西安
+2025-11-04 19:03:21,959 - weather_monitor.weather_api - ERROR - 获取 北京 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E5%8C%97%E4%BA%AC&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:23,399 - weather_monitor.weather_api - ERROR - 获取 上海 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E4%B8%8A%E6%B5%B7&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:24,703 - weather_monitor.weather_api - ERROR - 获取 广州 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E5%B9%BF%E5%B7%9E&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:26,120 - weather_monitor.weather_api - ERROR - 获取 深圳 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E6%B7%B1%E5%9C%B3&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:27,407 - weather_monitor.weather_api - ERROR - 获取 杭州 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E6%9D%AD%E5%B7%9E&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:28,840 - weather_monitor.weather_api - ERROR - 获取 成都 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E6%88%90%E9%83%BD&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:30,136 - weather_monitor.weather_api - ERROR - 获取 武汉 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E6%AD%A6%E6%B1%89&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:31,559 - weather_monitor.weather_api - ERROR - 获取 西安 天气数据失败: 404 Client Error: Not Found for url: http://api.openweathermap.org/data/2.5/weather?q=%E8%A5%BF%E5%AE%89&appid=6b183fcab31947acbe61f772dd82a2bf&units=metric&lang=zh_cn
+2025-11-04 19:03:32,561 - weather_monitor.core - INFO - 所有城市天气正常，无需发送预警
+2025-11-04 21:38:55,228 - weather_monitor.core - INFO - 开始天气监控，城市: Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou, Chengdu, Wuhan, Xian
+2025-11-04 21:38:56,162 - weather_monitor.weather_api - INFO - 成功获取 Beijing 天气数据
+2025-11-04 21:38:57,547 - weather_monitor.weather_api - INFO - 成功获取 Shanghai 天气数据
+2025-11-04 21:38:59,063 - weather_monitor.weather_api - INFO - 成功获取 Guangzhou 天气数据
+2025-11-04 21:39:00,503 - weather_monitor.weather_api - INFO - 成功获取 Shenzhen 天气数据
+2025-11-04 21:39:01,942 - weather_monitor.weather_api - INFO - 成功获取 Hangzhou 天气数据
+2025-11-04 21:39:03,350 - weather_monitor.weather_api - INFO - 成功获取 Chengdu 天气数据
+2025-11-04 21:39:04,759 - weather_monitor.weather_api - INFO - 成功获取 Wuhan 天气数据
+2025-11-04 21:39:06,264 - weather_monitor.weather_api - INFO - 成功获取 Xian 天气数据
+2025-11-04 21:39:07,265 - weather_monitor.core - INFO - 所有城市天气正常，无需发送预警
