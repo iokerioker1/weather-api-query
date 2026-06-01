@@ -1,7 +1,4 @@
-#!/usr/bin/env python3
-"""
-天气预警系统主入口
-"""
+"""天气预警系统主入口"""
 
 import sys
 import time
@@ -14,7 +11,7 @@ def main():
     try:
         monitor = WeatherMonitor('config.ini')
 
-        print("🌤️  天气预警系统")
+        print("天气预警系统")
         print("=" * 30)
 
         # 显示系统状态
