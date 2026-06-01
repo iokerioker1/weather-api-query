@@ -32,33 +32,33 @@ class AlertManager:
 
         # 高温预警
         if temp > self.temperature_high:
-            alerts.append(f"🌡️ {city} 高温预警: {temp}°C (阈值: {self.temperature_high}°C)")
+            alerts.append(f"{city} 高温预警: {temp}°C (阈值: {self.temperature_high}°C)")
 
         # 低温预警
         if temp < self.temperature_low:
-            alerts.append(f"❄️ {city} 低温预警: {temp}°C (阈值: {self.temperature_low}°C)")
+            alerts.append(f"{city} 低温预警: {temp}°C (阈值: {self.temperature_low}°C)")
 
         # 大风预警
         if wind_speed > self.wind_threshold:
-            alerts.append(f"💨 {city} 大风预警: {wind_speed} m/s (阈值: {self.wind_threshold} m/s)")
+            alerts.append(f"{city} 大风预警: {wind_speed} m/s (阈值: {self.wind_threshold} m/s)")
 
         # 降雨预警
         if rain > self.rain_threshold:
-            alerts.append(f"🌧️ {city} 强降雨预警: {rain} mm (阈值: {self.rain_threshold} mm)")
+            alerts.append(f"{city} 强降雨预警: {rain} mm (阈值: {self.rain_threshold} mm)")
 
         # 高湿预警
         if humidity > self.humidity_threshold:
-            alerts.append(f"💧 {city} 高湿预警: {humidity}% (阈值: {self.humidity_threshold}%)")
+            alerts.append(f"{city} 高湿预警: {humidity}% (阈值: {self.humidity_threshold}%)")
 
         # 特殊天气预警
         severe_weather_keywords = ['雷暴', '暴雨', '大雪', '台风', '飓风', '冰雹']
         if any(keyword in description for keyword in severe_weather_keywords):
-            alerts.append(f"⚠️ {city} 特殊天气预警: {description}")
+            alerts.append(f"{city} 特殊天气预警: {description}")
 
         # 极端天气类型
         extreme_weather_types = ['Thunderstorm', 'Tornado', 'Hurricane']
         if main_weather in extreme_weather_types:
-            alerts.append(f"🚨 {city} 极端天气预警: {main_weather}")
+            alerts.append(f"{city} 极端天气预警: {main_weather}")
 
         if alerts:
             logger.info(f"{city} 触发 {len(alerts)} 条预警")
