@@ -25,10 +25,16 @@
    python weather.py
 
 ## 项目结构
-weather_project/
-├── __init__.py
-├── main.py
-└── utils.py
+weather_alert_system/
+├── weather_monitor/      # 核心功能包
+│   ├── alert_manager.py  # 告警逻辑
+│   ├── core.py           # 核心调度
+│   ├── email_sender.py   # 邮件发送
+│   └── weather_api.py    # 天气API调用
+├── logs/                 # 运行日志
+├── main.py               # 程序入口
+├── config.ini            # 配置文件
+└── requirements.txt      # 依赖清单
 
 ## 备注
 本地测试环境：Windows + PyCharm
