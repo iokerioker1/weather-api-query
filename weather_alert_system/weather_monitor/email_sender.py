@@ -52,7 +52,7 @@ class EmailSender:
         </head>
         <body>
             <div class="header">
-                <h1>🚨 天气预警通知</h1>
+                <h1>天气预警通知</h1>
                 <p>检测时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
             </div>
 
